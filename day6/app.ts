@@ -1,4 +1,5 @@
 console.log('Question11');
+
 // Create a simple calculator that can perform addition, subtraction, multiplication, and division.
 
 function addition(num1: number, num2: number):string {
@@ -59,7 +60,6 @@ console.log(`Product: ${product}`);
 console.log(`Division: ${division}`);  
 
 console.log('Question 12');
-
 //: Separate Elements by Type
 //Given an array with mixed types of elements, separate them into different arrays based on their type (number, string, boolean).
 function separateTypes(...arr: (number | string | boolean)[]) {  
