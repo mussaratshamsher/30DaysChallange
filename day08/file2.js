@@ -1,6 +1,8 @@
 "use strict";
+//Question 15
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Circle = void 0;
+// 16 (b)
 // Define and export the Circle class that implements the Shape interface  
 class Circle {
     name;
