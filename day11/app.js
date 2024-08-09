@@ -24,7 +24,6 @@ function firstNonRepeatedCharacter(s) {
     }
     return ''; // Returns an empty string if no non-repeated character is found  
 }
-// Example usage:  
 console.log(firstNonRepeatedCharacter("swiss")); // Output: "w"  
 console.log(firstNonRepeatedCharacter("racecar")); // Output: "e"  
 console.log(firstNonRepeatedCharacter("aabbcc")); // Output: ""  
