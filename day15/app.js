@@ -17,8 +17,8 @@ function areAnagrams(str1, str2) {
     }
     return charCount1.every((count, index) => count === charCount2[index]);
 }
-console.log(areAnagrams('Hello', 'Typescript'));
-console.log(areAnagrams('Sana', 'Anas'));
+console.log(areAnagrams('Hello', 'Typescript')); //false
+console.log(areAnagrams('Sana', 'Anas')); //true
 console.log('Question 30');
 // Write a TypeScript function `reverseWords(sentence: string): string` that reverses the words in a given sentence.
 //  For example, if the input is `"Hello world"`, the output should be `"world Hello"`.
@@ -29,5 +29,5 @@ function reverseWords(sentence) {
         .reverse() // Reverse the array of words  
         .join(" "); // Join the words back into a string  
 }
-console.log(reverseWords("  Hello   world  ")); // Output "world Hello"
-console.log(reverseWords("   Python    Everywhere      "));
+console.log(reverseWords("  Hello   world  ")); //Output: world Hello
+console.log(reverseWords("  Python    Everywhere    ")); //output: Everywhere Python
