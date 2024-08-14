@@ -17,7 +17,7 @@ function sumEvenNumbers(arr1, arr2, arr3) {
     };
     return [sumArray(arr1), sumArray(arr2), sumArray(arr3)];
 }
-console.log(sumEvenNumbers([1, 2, 3, 4], [4, 5, 6], [7, 8, 9])); // Output: [2, 4, 8]
+console.log(sumEvenNumbers([1, 2, 3, 4], [4, 5, 6], [7, 8, 9])); //Output: [6, 10, 8]
 console.log('Question:32');
 // Concatenate Strings from Arrays:
 // You are given three arrays of strings. Write a function concatenateFirstLetters(arr1: string[], arr2: string[], arr3: string[]): string[] that 
