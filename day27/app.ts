@@ -14,7 +14,7 @@ function countDivisors(n: number): number {
 }  
   
 console.log(countDivisors(12)); // Output: 6
-console.log(countDivisors(16));
+console.log(countDivisors(16)); // Output: 5
 
 console.log('Question 54:');
 // Check if a Number is a Perfect Square
