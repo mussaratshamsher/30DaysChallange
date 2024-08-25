@@ -14,7 +14,7 @@ function countDivisors(n) {
     return count;
 }
 console.log(countDivisors(12)); // Output: 6
-console.log(countDivisors(16)); //Output: 
+console.log(countDivisors(16)); // Output: 5
 console.log('Question 54:');
 // Check if a Number is a Perfect Square
 // Write a TypeScript function that takes a positive integer as input and returns true if the number is a perfect square,
